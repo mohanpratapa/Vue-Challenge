@@ -10,7 +10,7 @@ const mult = new Vue({
     multiply: function () {
       const i = parseInt(this.firstNum)
       const j = parseInt(this.secondNum)
-      return `your multi is ${multi(i, j)}.`
+      return `total space required ${multi(i, j)}.`
     }
   }
 })
