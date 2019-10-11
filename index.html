@@ -23,7 +23,7 @@
   <!-- A bit of CSS required for sticky footer -->
   <link href="index.css" rel="stylesheet">
 <!-- Vue component styles -->
-<link href="components/adder/adder.css" rel="stylesheet">
+<link href="components/multi/multi.css" rel="stylesheet">
 
 </head>
 
@@ -38,13 +38,13 @@
         <p>This is component which calculates total space required!</p>
     
             <fieldset class="mt-2">
-              <label for="first">Enter first number (1 to 100):</label>
+              <label for="first">number (1 to 100):</label>
               <input v-model="firstNum" id="firstNum" type="number" min="1" max="100">
               <span id="firstWarning" class="text-danger"></span>
             </fieldset>
     
             <fieldset class="mt-2">
-              <label for="second">Enter second number (1 to 100):</label>
+              <label for="second">number (1 to 100):</label>
               <input v-model="secondNum" id="secondNum" type="number" min="1" max="100">
               <span id="secondWarning" class="text-danger"></span>
             </fieldset>
